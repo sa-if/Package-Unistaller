@@ -4,9 +4,9 @@
 ` A python script to Uninstall all python packages at once.🙂
 `
 ## Work Model 🤩
- 1. Creates a file named `requirements.txt` and writes the output of the `pip freeze` command to it. The `pip freeze` command lists all the packages that are currently     installed in your Python environment and their versions.
- 2. Reads the contents of the `requirements.txt` file, which contains the list of packages and their versions, and splits them into a list of strings, where each           string is a package name and version.    
- 3. Loops through the list of packages and uninstalls each one using the `pip uninstall` command. The `-y` option is used to answer "yes" to any prompts asking to         confirm the uninstallation.
+ - Creates a file named `requirements.txt` and writes the output of the `pip freeze` command to it. The `pip freeze` command lists all the packages that are currently     installed in your Python environment and their versions.
+ - Reads the contents of the `requirements.txt` file, which contains the list of packages and their versions, and splits them into a list of strings, where each           string is a package name and version.    
+ - Loops through the list of packages and uninstalls each one using the `pip uninstall` command. The `-y` option is used to answer "yes" to any prompts asking to         confirm the uninstallation.
  
       This code can be used to create a snapshot of the currently installed packages in a Python environment and then to uninstall all of those packages at once. This       can be useful for scenarios where you want to start with a clean slate and have no installed packages, or when you want to ensure that you are only using the           packages that are explicitly listed in the `requirements.txt` file.
  
@@ -41,7 +41,7 @@ This project is used by the following individual:
 - `Saif Islam`  
 - `Saimoon Islam`
 
-##Contributions
+## Contributions
 
 Feel free to contribute to this project by opening an issue or submitting a pull request.
 
