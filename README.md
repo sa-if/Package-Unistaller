@@ -44,7 +44,7 @@ This project is used by the following individual:
 
 ## Contributions 😉
 
-Feel free to contribute to this project by opening an issue or submitting a pull request.
+Feel free to contribute to this project by opening an issue or submitting a `pull request`.
 
 
 ## Support 💁🏻‍♂️
