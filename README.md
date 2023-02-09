@@ -8,7 +8,7 @@
  - Reads the contents of the `requirements.txt` file, which contains the list of packages and their versions, and splits them into a list of strings, where each           string is a package name and version.    
  - Loops through the list of packages and uninstalls each one using the `pip uninstall` command. The `-y` option is used to answer "yes" to any prompts asking to         confirm the uninstallation.
  
-      This code can be used to create a snapshot of the currently installed packages in a Python environment and then to uninstall all of those packages at once. This       can be useful for scenarios where you want to start with a clean slate and have no installed packages, or when you want to ensure that you are only using the           packages that are explicitly listed in the `requirements.txt` file.
+      This code can be used to create a snapshot of the currently installed packages in a Python environment and then to uninstall all of those packages at once. This       can be useful for scenarios where you want to start with a clean slate and have no installed packages, or when you want to ensure that you are only using the           packages that are explicitly listed in the `requirements.txt` file.🍊
  
 
  
@@ -24,7 +24,7 @@ You need to have the following software installed on your machine:
 ## Usage 🎃
 - To use this script, simply run the following command: `python main.py`
 
-## Error handling
+## Error handlinge 🤔
   -  The script includes error handling for both the creation of the `requirements.txt` file and the uninstallation of packages. In case of any errors, the error            message will be printed to the console.
 
 ## License 🪪
@@ -42,7 +42,7 @@ This project is used by the following individual:
 - `Saif Islam`  
 - `Saimoon Islam`
 
-## Contributions
+## Contributions 😉
 
 Feel free to contribute to this project by opening an issue or submitting a pull request.
 
